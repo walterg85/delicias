@@ -5,6 +5,11 @@
   border-color: #8b8b8b !important;
 }
 
+.bg-lg-red {
+  background-color: #cd4647!important;
+  border-radius: 15px;
+}
+
 /*
  * Base structure
  */
@@ -76,9 +81,9 @@ body {
 
 /*Seccion 3*/
 .seccion3 {
-  background-image: url("https://cdn.pixabay.com/photo/2021/02/08/07/39/chef-5993951_960_720.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/22/06/32/girl-1848478_960_720.jpg");
   background-attachment: fixed;
-  background-position: center 150px;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -87,7 +92,7 @@ body {
 
 .seccion4 .card {
   border: 0px !important;
-  background-color: #3a4550;
+  background-color: #cd4647;
   border-radius: .50rem;
 }
 
@@ -113,7 +118,7 @@ body {
 
 .foot-subscription-form .btn {
     color: #ffffff;
-    background-color: #3a4550;
+    background-color: #cd4647;
 }
 
 .foot-subscription-form .form-control {
@@ -143,4 +148,20 @@ body {
     text-align: center;
     width: 2em;
     line-height: inherit;
+}
+
+/*seccion menu*/
+.our-menu .nav-link {
+  color: #bbbbbb !important;
+}
+
+.our-menu .list-group-item {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #cbcbcb;
+    text-decoration: none;
+    background-color: #212529;
+    border-bottom: 1px solid rgb(211 204 204 / 29%);
+    text-shadow: none;
 }
