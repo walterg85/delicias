@@ -1,0 +1,146 @@
+/*
+ * Globals
+ */
+.border-gray {
+  border-color: #8b8b8b !important;
+}
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 65em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/*Seccion 1*/
+.seccion1 {
+  height: 100vh;
+}
+
+/*Seccion 2*/
+.seccion2 img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-color: #8b8b8b;
+    border-style: solid;
+    border-width: 10px;
+}
+
+/*Seccion 3*/
+.seccion3 {
+  background-image: url("https://cdn.pixabay.com/photo/2021/02/08/07/39/chef-5993951_960_720.jpg");
+  background-attachment: fixed;
+  background-position: center 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Seccion 4*/
+
+.seccion4 .card {
+  border: 0px !important;
+  background-color: #3a4550;
+  border-radius: .50rem;
+}
+
+/*Seccion 5*/
+
+.btn-floating {
+    width: 2.3125rem;
+    height: 2.3125rem;
+}
+
+.foot-subscription-form .input-group {
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.foot-subscription-form {
+    margin-bottom: 30px;
+}
+
+.foot-subscription-form .btn {
+    color: #ffffff;
+    background-color: #3a4550;
+}
+
+.foot-subscription-form .form-control {
+    color: #8c8c8c;
+    font-size: 12px;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.seccion5 .btn-floating, [class*=btn-outline-].btn-floating {
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+}
+
+.fa-ul {
+    list-style-type: none;
+    margin-left: 2.5em;
+    padding-left: 0;
+}
+
+.fa-li {
+    left: -2em;
+    position: absolute;
+    text-align: center;
+    width: 2em;
+    line-height: inherit;
+}
